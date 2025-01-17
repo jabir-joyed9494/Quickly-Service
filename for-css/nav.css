@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bg-body-tertiary{
+    background-color: #000 !important;
+    padding: 20px 0;
+}
+.quickly-logo{
+    height: 100%;
+    width: 128px;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
+.nav-link{
+    color: rgba(255, 253, 255) !important;
+}
+.nav-link:hover{
+    color: rgb(133, 129, 126) !important;
+}
+.get-started{
+    background-color: #fff;
+    color: #000 !important;
+    border-radius: 5px;
+    width: 105px;
+    text-align: center;
+}
+@media (max-width:980px){
+    .dropdown-menu{
+        background-color: #000 !important;
+     }
+     .dropdown-menu a{
+        color: #fff;
+        width: 220px;
+     }
+}
+.dropdown-item{
+    padding: 10px;
+}
+.dropdown-menu{
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+}
+.dropdown-menu a{
+    color: #635e5e;
+}
+.dropdown-menu a:hover{
+   background-color: rgb(216, 211, 207);
+}
