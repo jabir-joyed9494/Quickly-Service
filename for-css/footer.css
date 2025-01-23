@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-1{
+    background-color: #000000;
+    max-width: 100%;
+    margin: auto;
+}
+footer{
+    font-size: 80%;
+}
+.footer-list div ul li{
+    margin-bottom: 7px !important;
+    color: #888;
+}
+.footer-har-mars p{
+    color: #888;
+}
+@media (min-width:320px) and (max-width:575px){
+    .footer-har-mars p{
+        text-align: left;
+        
+    }
+    .footer-har-mars div ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+  }
+  .footer-icon{
+    display: flex;
+  }
+}
+    .footer-har-mars div ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+  }
+
+.footer-har-mars div ul li i{
+    margin: 5px;
+}

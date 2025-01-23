@@ -8,6 +8,7 @@ body{
     font-weight: 400;
     font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 999;
 }
 .bg-body-tertiary{
     background-color: #000 !important;
